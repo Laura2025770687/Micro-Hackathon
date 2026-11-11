@@ -26,7 +26,7 @@ def imprimir_nodo(arr, resaltar, tipo , i, k, posSerieLeon, prefijo="", es_ultim
 
 # imorime como arbol los numeros del arreglo
 def dibujar_bosque(arr, resaltar, tipo, aActivos, posSerieLeon):
-    print("\n--- BOSQUE DE MONTÍCULOS DE LEONARDO ")
+    print("\n --- BOSQUE DE LEONARDO :) ")
     if not aActivos:
         print("(Bosque vacío)")
         return
@@ -53,7 +53,9 @@ def estado(arr, resaltar, tipo, msg, aActivos, posSerieLeon):
     # se limpia la termial en cada vez
     os.system("clear" if os.name == "posix" else "cls")
 
-    print(f"\n ACCION: [{tipo}] {msg}\n")
+    print("\n ----- SMOOTHSORT -----")
+
+    print(f"\nACCION: [{tipo}] {msg}\n")
 
     # fila de los indices del arreglo
     arr_indices = "Indice: "
