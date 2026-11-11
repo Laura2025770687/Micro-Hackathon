@@ -1,3 +1,3 @@
 # Micro-Hackathon
-## SMOTHSORT
+## SMOOTHSORT
 Algoritmo de ordenamiento, con implementacion visual
